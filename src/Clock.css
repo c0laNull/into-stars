@@ -1,0 +1,19 @@
+.main-time-div{
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    width: max-content;
+
+}
+.time-div{
+    background-color: black;
+    border: 1px solid rgb(255, 255, 255);
+    width: 130px;
+    height: 70px;
+}
+.time-p{
+    font-size: 30px;
+    color: white;
+    align-self: center;
+    margin: auto;
+}

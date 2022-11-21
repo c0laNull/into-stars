@@ -1,0 +1,17 @@
+@import 'https://unpkg.com/leaflet@1.9.2/dist/leaflet.css';
+div{
+    display: flex;
+    flex-direction: column;
+}
+.map{
+    margin: auto;
+
+    height: 30vh;
+    width: 100%;
+    border-bottom: 3px solid rgba(19, 19, 19, 0.99);
+    
+}
+.leaflet-tile {
+    filter: hue-rotate(20deg) brightness(0.8) contrast(1.2) saturate(150%) !important;
+ 
+}

@@ -1,0 +1,35 @@
+.main-navbar-div{
+    width: 100%;
+    background-color:rgb(12, 12, 12);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    border-bottom: 3px solid rgba(53, 53, 53, 0.99);
+
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+.nav-item{
+    padding-right: 20px;
+    
+}
+.userIcon img{
+    max-width: 40px;
+    filter: invert(100%);
+}
+.userIcon{
+    margin-top: 5px;
+    align-self: center;
+    padding-right: 20px;
+}
+.nav-links{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

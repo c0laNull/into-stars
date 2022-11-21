@@ -1,0 +1,54 @@
+.suninfo{
+    height: 900px;
+    background-repeat: repeat;
+    padding-top: 240px;
+    margin-top: -200px;
+    display: flex;
+    flex-direction: column;
+}
+hr{
+    border-top: 1px solid rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 400px;
+    margin-top: 50px;
+}
+.main-suninfo-div{
+
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+}
+.location-info-div{
+
+}
+.location-info-div p{
+    align-self: center;
+    text-align: center;
+    color: rgb(230, 230, 230);
+}
+.coordinates{
+    font-size: 32px;
+    margin-left: 20px;
+}
+.sun-img{
+    width: 128px;
+    height: 128px;
+    align-self: center;
+    padding-right: 20px;
+    margin-left: 10px;
+    filter: invert(100%)
+
+}
+.sun-info-div{
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.sun-info-div p{
+    color: white;
+    text-align: center;
+    font-size: 40px;;
+    align-self: center;
+}
